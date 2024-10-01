@@ -1,37 +1,30 @@
-# Aplicação para gerenciar alunos e turmas
-- Você mesmo irá gerar os dados para realizar o projeto e apresentar os dados necessários para rodar o projeto
-- O projeto deverá ser executado no console do navegador
+# Sistema de Gerenciamento Escolar
 
-Aluno
-- Cadastrar aluno contendo:
-	- nome, *string*
-	- sobrenome, *string*
-	- email, *string*
-	- tipo, *string* (sendo presencial ou ead)
-	- turma, *number* (sendo um readonly de código de turma válido)
-	- nascimento, sendo a data de nascimento do aluno
-	- notas, sendo um array de números, de no máximo 5 posições
-	- ativo, *boolean* // padrão true
-	- classificação: A, B, C ou D.
+## Descrição
+Este projeto é um **Sistema de Gerenciamento Escolar** que permite gerenciar informações de alunos e turmas de forma eficiente. O sistema possibilita o cadastro, atualização, listagem e remoção de alunos e turmas, além de calcular a média dos alunos e gerar relatórios completos. Este projeto foi desenvolvido como projeto final do 3º módulo do **Santander Coders**, em grupo, destacando a colaboração em equipe.
 
+## Funcionalidades
+- **Cadastro de Turmas**: Adicione turmas com capacidade máxima e tipo (presencial ou EAD).
+- **Cadastro de Alunos**: Insira informações pessoais, notas e classificação dos alunos.
+- **Atualização e Remoção de Alunos**: Atualize ou remova registros de alunos conforme necessário.
+- **Desativação de Alunos**: Marque alunos como inativos.
+- **Listagem de Alunos**: Veja listas de alunos ativos e inativos.
+- **Listagem de Médias**: Consulte alunos com média esperada.
+- **Geração de Relatórios**: Produza relatórios completos sobre o desempenho dos alunos.
 
-Turma:
-- Cadastrar turma contendo
-	- código, *number* entre 1 e 10 (no máximo 10 turmas)
-	- máximo, *number* máximo de alunos de 5 a 10
-	- alunos, *Alunos[]*
-	- descrição, *string*
-	- tipo, *string* (sendo presencial ou ead)
+## Instalação
 
+Para instalar e executar o projeto, siga os passos abaixo:
 
-Escola: 
-- Desativar aluno
-- Retornar a lista apenas com alunos ativos
-- Retornar a lista apenas com alunos inativos
-- Retornar os alunos que estão com a média esperada
-- Relatório completo com os seguintes retornos:
-	- Quantidade de alunos
-	- Quantidade de turmas
-	- Alunos que estão com a média esperada
-	- Alunos que estão abaixo da média esperada
-	- Retornar alunos com a média calculada
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/fatalite38/appGerenciamentoEscolar.git
+
+2. Navegue até o diretório do projeto:
+   cd sistema-gerenciamento-escolar
+
+3. Instale as dependências:
+	npm install
+
+4. Inicie o servidor
+	npm run dev
