@@ -1,7 +1,7 @@
 # Sistema de Gerenciamento Escolar
 
 ## Descrição
-Este projeto é um **Sistema de Gerenciamento Escolar** que permite gerenciar informações de alunos e turmas de forma eficiente. O sistema possibilita o cadastro, atualização, listagem e remoção de alunos e turmas, além de calcular a média dos alunos e gerar relatórios completos. Este projeto foi desenvolvido como projeto final do 3º módulo do **Santander Coders**, em grupo, destacando a colaboração em equipe.
+Este projeto é um **Sistema de Gerenciamento Escolar** que permite gerenciar informações de alunos e turmas de forma clara e eficiente. O sistema possibilita o cadastro, atualização, listagem e remoção de alunos e turmas, além de calcular a média dos alunos e gerar relatórios completos. Este projeto foi desenvolvido como projeto final do 3º módulo do **Santander Coders**, em grupo, destacando a colaboração em equipe.
 
 ## Funcionalidades
 - **Cadastro de Turmas**: Adicione turmas com capacidade máxima e tipo (presencial ou EAD).
