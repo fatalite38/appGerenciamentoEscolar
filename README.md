@@ -12,6 +12,10 @@ Este projeto é um **Sistema de Gerenciamento Escolar** que permite gerenciar in
 - **Listagem de Médias**: Consulte alunos com média esperada.
 - **Geração de Relatórios**: Produza relatórios completos sobre o desempenho dos alunos.
 
+## Tecnologias Utilizadas
+- **TypeScript
+- **Vite
+
 ## Instalação
 
 Para instalar e executar o projeto, siga os passos abaixo:
@@ -21,10 +25,13 @@ Para instalar e executar o projeto, siga os passos abaixo:
    git clone https://github.com/fatalite38/appGerenciamentoEscolar.git
 
 2. Navegue até o diretório do projeto:
+   ```bash
    cd sistema-gerenciamento-escolar
 
-3. Instale as dependências:
+4. Instale as dependências:
+    ````bash
 	npm install
 
-4. Inicie o servidor
+6. Inicie o servidor
+   ```bash
 	npm run dev
